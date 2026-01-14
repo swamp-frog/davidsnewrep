@@ -97,9 +97,10 @@
         /* flex-basis: 65%; */
         display: flex;
         position: absolute;
+        justify-content: center;
         background-size: cover;
         background-position: center;
-        width: 38%;
+        width: 50%;
         height: auto;
         top: 50%;
         left: 50%;
@@ -115,6 +116,12 @@
         transition: filter 5s ease-in-out;
         /* z-index: 1; */
       }
+    .video2{
+    width: 50vh;
+    min-height: 50vh;
+    transition: filter 5s ease-in-out;
+    /* background-color: gray; */
+    }
 
       .video:hover{
         /* filter: blur(0px); */
@@ -189,7 +196,8 @@
     </div>
 
     <div class="bigcenterimagecontainer">
-    <video src="https://github.com/swamp-frog/portfolio-new/releases/download/v0.1/slit-video.mov?raw=1" type="video/mp4" controls class="video" poster="poster-blinds.webp" playsinline webkit-playsinline></video>
+    <!-- <video src="slit-video.mov" type="video/mp4" controls class="video" poster="poster-blinds.png" playsinline webkit-playsinline></video> -->
+     <iframe class="video2" src="https://www.youtube.com/watch?v=Ti6Cbw1HPxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <!-- <div class="backgroundimage"><img src="poster-blinds.png"></div> -->
